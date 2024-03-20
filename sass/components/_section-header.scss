@@ -1,0 +1,25 @@
+.section__header {
+  color: var(--header-color);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.179;
+  text-align: center;
+  letter-spacing: 0.84px;
+
+  &--bottom {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section__header {
+    font-size: 36px;
+    line-height: 1.67;
+
+    letter-spacing: 0.03em;
+
+    &--bottom {
+      margin-bottom: 50px;
+    }
+  }
+}

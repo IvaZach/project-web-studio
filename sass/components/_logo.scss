@@ -1,0 +1,49 @@
+// Logo
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__link {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  display: inline-block;
+
+  @extend %decoration;
+  &--bottom {
+    margin-bottom: 20px;
+  }
+}
+
+.logo__part {
+  &--black {
+    color: var(--header-color);
+  }
+  &--white {
+    color: var(--second-accent-color);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo__link--right {
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__link {
+    font-size: 26px;
+    letter-spacing: 0.03em;
+
+    &--right {
+      margin-right: 93px;
+    }
+  }
+}

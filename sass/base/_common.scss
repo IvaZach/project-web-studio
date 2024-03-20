@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+  font-style: normal;
+  font-size: var(--font-size-paragraph);
+  margin: 0;
+  background-color: var(--second-accent-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  background-color: var(--second-accent-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
